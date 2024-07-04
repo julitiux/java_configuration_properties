@@ -1,3 +1,8 @@
 spring:
   application:
     name: java_configuration_properties
+
+properties:
+  string: 'this a string from properties'
+  integer: 12345
+  property: 'another property'
