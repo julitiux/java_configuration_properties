@@ -1,0 +1,5 @@
+{
+  "string": "this a string from properties",
+  "integer": 12345,
+  "property": "another property"
+}
