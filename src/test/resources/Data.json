@@ -1,0 +1,25 @@
+{
+  "notification": {
+    "comunication": {
+      "comm0001": [
+        {
+          "metodoEnvio": "1",
+          "templateId": "1",
+          "alertType": "1"
+        },
+        {
+          "metodoEnvio": "2",
+          "templateId": "2",
+          "alertType": "2"
+        }
+      ],
+      "comm0002": [
+        {
+          "metodoEnvio": "11",
+          "templateId": "11",
+          "alertType": "11"
+        }
+      ]
+    }
+  }
+}
