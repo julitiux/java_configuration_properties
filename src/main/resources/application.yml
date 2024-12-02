@@ -9,7 +9,7 @@ properties:
 
 data:
   notification:
-    comunication:
+    communication:
       comm0001:
         - metodoEnvio: '1'
           templateId: '1'
