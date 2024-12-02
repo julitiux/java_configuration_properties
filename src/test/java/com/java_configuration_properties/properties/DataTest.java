@@ -4,6 +4,9 @@ import com.java_configuration_properties.util.Utils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import javax.swing.plaf.IconUIResource;
+import java.util.List;
+
 class DataTest {
 
   private Data data;
@@ -15,7 +18,9 @@ class DataTest {
 
   @Test
   void testDataProperties() {
-    System.out.println(data.getNotification());
+    System.out.println(data);
+    List<Comm> commList = data.getNotification().getCommunication().get("comm0001");
+    System.out.println(commList);
   }
 
 }
